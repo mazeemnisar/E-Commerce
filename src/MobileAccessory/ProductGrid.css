@@ -1,0 +1,152 @@
+/* Container setup */
+.container {
+  display: flex;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+}
+
+/* Sidebar styling */
+.sidebar {
+  width: 220px; /* fixed width to match pixel layout */
+  padding-right: 24px;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px 0 10px;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.filter label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  gap: 8px;
+}
+
+.filters input[type="checkbox"] {
+  accent-color: #007bff;
+}
+
+.see-all {
+  background: none;
+  border: none;
+  color: #007bff;
+  font-size: 13px;
+  padding: 0;
+  margin-top: 5px;
+  cursor: pointer;
+  text-align: left;
+}
+
+/* Main content styling */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 90px;
+  margin-left: 40px;
+}
+
+.product-card {
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  background-color: #fff;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease-in-out;
+  position: relative;
+}
+
+.product-card:hover {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.product-img {
+  width: 100%;
+  height: 240px;
+  object-fit: contain;
+  background-color: #fff;
+  padding: 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.product-info {
+  padding: 16px;
+  font-size: 13px;
+}
+
+.product-rating {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.stars {
+  color: #ff9900;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.description {
+  font-size: 13px;
+  color: #444;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.price {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.new-price {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.old-price {
+  font-size: 13px;
+  color: #999;
+  text-decoration: line-through;
+}
+
+/* Checkbox style matching system */
+input[type="checkbox"] {
+  accent-color: #1a73e8;
+  transform: scale(1.1);
+  margin-right: 8px;
+}
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 24px;
+  gap: 12px;
+}
+
+.pagination select {
+  padding: 4px 6px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.page-buttons button {
+  padding: 4px 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,85 @@
+.related-container {
+  width: 100%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  margin-left: 10px;
+}
+
+.related-title {
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.products-row {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 90px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  width: 140px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+
+.product-name {
+  font-size: 13px;
+  color: #333;
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+.product-price {
+  font-size: 12px;
+  color: #888;
+  margin: 0;
+}
+
+.discount-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #007bff, #0056d2);
+  border-radius: 6px;
+  padding: 20px;
+  color: white;
+}
+
+.discount-text h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.discount-text p {
+  margin: 5px 0 0 0;
+  font-size: 13px;
+  color: #d1d9ff;
+}
+
+.shop-button {
+  background-color: #ff7a00;
+  color: white;
+  padding: 10px 20px;
+  font-size: 13px;
+  border: none;
+  border-radius: 4px;
+  cursor: default;
+}

@@ -1,0 +1,109 @@
+.right-sidebar {
+  width: 288px;
+  height: fit-content;
+  /* background-color: white; */
+  border-left: 1px solid #e5e7eb;
+  margin-top: 120px;
+}
+
+.right-sidebar-content {
+  padding: 24px;
+}
+
+.user-greeting {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  background-color: #dbeafe;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+}
+
+.avatar-icon {
+  width: 24px;
+  height: 24px;
+  background-color: #3b82f6;
+  border-radius: 50%;
+}
+
+.user-info {
+  flex: 1;
+}
+
+.user-name {
+  color: #111827;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.user-subtitle {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.join-btn {
+  width: 100%;
+  background-color: #2563eb;
+  color: white;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-bottom: 8px;
+}
+
+.join-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.login-section {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.login-btn {
+  font-weight: 500;
+  width: 100%;
+  background-color: #6b7280;
+ color: white;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.login-btn:hover {
+  color: #1d4ed8;
+}
+
+.promo-card {
+  padding: 16px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.promo-card.orange {
+  background-color: #fb923c;
+}
+
+.promo-card.teal {
+  background-color: #2dd4bf;
+}
+
+.promo-card div {
+  margin-bottom: 2px;
+}

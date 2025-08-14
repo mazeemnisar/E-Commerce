@@ -1,0 +1,142 @@
+/* Container to match left spacing */
+.container {
+  /* padding-left: 30px;  
+  background-color: #f5f7fa; /* Optional: Background match */
+}
+
+/* Layout */
+.layout {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sidebar {
+  width: 230px;
+  padding: 10px; /* reduced */
+}
+
+.products {
+  flex: 1;
+  padding: 10px; /* reduced */
+}
+
+
+.sidebar h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.see-all {
+  color: #3b82f6;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* Price Range */
+.price-range input[type="range"] {
+  width: 100%;
+}
+
+.price-range-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.price-range-controls input {
+  width: 70px;
+  padding: 6px;
+  font-size: 13px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.apply-btn {
+  background-color: #3b82f6;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* Products */
+
+/* Product Card */
+.product-card {
+  display: flex;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  /* padding: 20px; */
+   margin-bottom: 20px; 
+  align-items: center;
+  background-color: white;
+}
+
+.product-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.product-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.product-price {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 6px;
+}
+
+.product-meta {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.green-text {
+  color: green;
+}
+
+.product-description {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+
+.view-details {
+  font-size: 14px;
+  color: #3b82f6;
+  cursor: pointer;
+}
+
+.wishlist-btn {
+  font-size: 20px;
+  color: #999;
+  cursor: pointer;
+  margin-left: 12px;
+}

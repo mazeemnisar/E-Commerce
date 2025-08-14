@@ -1,0 +1,49 @@
+.suppliers-container {
+  width: 100vw;
+  padding: 24px 40px;
+  font-family: Arial, sans-serif;
+  color: #1f2937; /* gray-800 */
+  font-size: 14px;
+  box-sizing: border-box;
+  margin-bottom: 30px; 
+  
+}
+
+.suppliers-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.suppliers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px 32px;
+  width: 100%;
+}
+
+.supplier-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.supplier-flag {
+  font-size: 20px;
+  line-height: 1;
+}
+
+.supplier-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.supplier-country {
+  line-height: 1.2;
+}
+
+.supplier-url {
+  color: #6b7280; /* gray-500 */
+  font-size: 12px;
+  text-decoration: none;
+}

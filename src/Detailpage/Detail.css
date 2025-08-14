@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 20px 30px;
+  margin-top: 170px;
+}
+
+.product-box {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.left {
+  width: 25%;
+  padding-right: 20px;
+  border-right: 1px solid #eee;
+}
+
+.main-image {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.thumbnails {
+  display: flex;
+  gap: 6px;
+}
+
+.thumbnails img {
+  width: 42px;
+  height: 42px;
+  border: 1px solid #ccc;
+}
+
+.middle {
+  width: 45%;
+  padding: 0 25px;
+}
+.rating-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.star-rating {
+  display: flex;
+  gap: 2px;
+}
+
+.star {
+  font-size: 16px;
+  color: #ddd;
+}
+
+.star.filled {
+  color: #ffa500;
+}
+
+.review-count {
+  font-size: 14px;
+  color: #666;
+}
+
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.price-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.price {
+  background-color: #f4f4f4;
+  padding: 8px 14px;
+  font-weight: bold;
+  color: #333;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.price.special {
+  background-color: #ffe7df;
+  color: #f60;
+}
+
+.details {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.details td {
+  padding: 8px 6px;
+  font-size: 14px;
+  color: #444;
+  vertical-align: top;
+  border-bottom: 1px solid #eee;
+}
+
+.supplier-info {
+  width: 350px;
+  background-color: #f0f4ff;
+  border-radius: 8px;
+  padding: 16px;
+  height: fit-content;
+  border: 1px solid #e6f0ff;
+}
+
+.supplier-header {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.supplier-avatar {
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(135deg, #66b3ff 0%, #4da6ff 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+.supplier-details {
+  flex: 1;
+}
+
+.supplier-label {
+  font-size: 11px;
+  color: #999;
+  margin-bottom: 2px;
+  font-weight: 400;
+}
+
+.supplier-name {
+  font-size: 12px;
+  color: #333;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.supplier-location {
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 12px; */
+  font-size: 12px;
+  color: #666;
+  padding-left: 2px;
+}
+
+.flag {
+  margin-right: 6px;
+  font-size: 14px;
+}
+
+.supplier-stats {
+  margin-bottom: 16px;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+  font-size: 12px;
+  color: #666;
+  padding-left: 2px;
+}
+
+.stat-item:last-child {
+  margin-bottom: 0;
+}
+
+.stat-icon {
+  margin-right: 6px;
+  color: #66b3ff;
+  font-weight: bold;
+  font-size: 11px;
+  width: 12px;
+  display: inline-block;
+}
+
+.action-buttons {
+  margin-bottom: 16px;
+}
+
+.send-inquiry-btn {
+  width: 100%;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 8px;
+  transition: background-color 0.2s ease;
+  text-align: center;
+}
+
+.send-inquiry-btn:hover {
+  background-color: #3367d6;
+}
+
+.seller-profile-btn {
+  width: 100%;
+  background-color: transparent;
+  color: #4285f4;
+  border: 1px solid #4285f4;
+  padding: 8px 14px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.seller-profile-btn:hover {
+  background-color: #4285f4;
+  color: white;
+}
+
+.save-for-later {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #4285f4;
+  cursor: pointer;
+  padding: 6px 2px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+  justify-content: flex-start;
+}
+
+.save-for-later:hover {
+  background-color: rgba(66, 133, 244, 0.08);
+}
+
+.heart-icon {
+  margin-right: 6px;
+  font-size: 14px;
+  color: #4285f4;
+}
+
+.save-text {
+  font-weight: 400;
+}

@@ -1,0 +1,50 @@
+.recommended-container {
+  padding: 20px;
+  /* background-color: #f9fafb; */
+  margin-bottom: 30px;
+  
+}
+
+.recommended-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 16px;
+}
+
+.recommended-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.item-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.item-card img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.item-price {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 8px 0;
+}
+
+.item-name {
+  font-size: 14px;
+  color: #374151;
+  margin-bottom: 4px;
+}
+
+.item-origin {
+  font-size: 12px;
+  color: #6b7280;
+}

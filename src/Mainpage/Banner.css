@@ -1,0 +1,152 @@
+.main-content {
+    flex: 1;
+    position: relative;
+    margin-top: 0;
+  padding-top: 0;
+  margin-top: 120px;
+}
+
+.hero-section {
+    height: 400px;
+    background: linear-gradient(135deg, #7dd3c0 0%, #d4f4dd 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content {
+    position: absolute;
+    left: 32px;
+    top: 30%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.hero-subtitle {
+    color: #374151;
+    font-size: 18px;
+    font-weight: 400;
+    /* margin-bottom: 8px; */
+}
+
+.hero-title {
+    color: #111827;
+    font-size: 36px;
+    font-weight: bold;
+    /* margin-bottom: 24px; */
+}
+
+.learn-more-btn {
+    background-color: white;
+    color: #374151;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.learn-more-btn:hover {
+    background-color: #f9fafb;
+}
+
+/* Product Images */
+.product-images {
+    position: absolute;
+    right: 32px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+}
+
+.laptop {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 192px;
+    height: 128px;
+    transform: rotate(12deg);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.laptop-screen {
+    width: 100%;
+    height: 96px;
+    background-color: #1f2937;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.laptop-base {
+    width: 100%;
+    height: 32px;
+    background-color: #e5e7eb;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.phone {
+    position: absolute;
+    top: 64px;
+    right: 128px;
+    width: 64px;
+    height: 112px;
+    transform: rotate(6deg);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+}
+
+.phone-screen {
+    width: 100%;
+    height: 96px;
+    background-color: #1f2937;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.phone-bottom {
+    width: 100%;
+    height: 16px;
+    background-color: #1f2937;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.headphones {
+    position: absolute;
+    top: 32px;
+    right: 64px;
+    width: 96px;
+    height: 96px;
+    transform: rotate(-12deg);
+}
+
+.headband {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 64px;
+    height: 8px;
+    background-color: #111827;
+    border-radius: 4px;
+}
+
+.ear-cup {
+    position: absolute;
+    top: 8px;
+    width: 32px;
+    height: 32px;
+    background-color: #111827;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ear-cup.left {
+    left: 0;
+}
+
+.ear-cup.right {
+    right: 0;
+}

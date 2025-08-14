@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px;
+    border-bottom: 1px solid #ddd;
+    margin-top: 60px;
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; 
+  height: 60px;
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav1 a{
+    color: #333;
+font-size: 14px;
+text-decoration: none;
+font-weight: bold;
+}
+.btn{
+    background:none;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav2 select{
+margin-left: 15px;
+padding: 4px 8px;
+border: none;
+outline: none;
+font-size: 14px;
+}
